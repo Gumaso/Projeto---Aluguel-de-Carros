@@ -1,0 +1,24 @@
+:root{
+    --Azul-Escuro: #1A237E;
+    --Cinza-Metálico: #607D8B;
+    --Vermelho-Ferrari: #FF2800
+    --Prata- Metálico: #C0C0C0;
+    --Preto-Onix: #353535;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #353535;
+    box-sizing: border-box;
+}
+/*
+SECAO 1
+*/
+#cabecalho{
+    
+}
+/*
+FIM SECAO 1
+*/
