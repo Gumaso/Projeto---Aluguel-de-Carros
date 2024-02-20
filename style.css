@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
 :root{
     --Azul-Escuro: #1A237E;
     --Cinza-Metálico: #607D8B;
@@ -10,14 +15,180 @@
     padding: 0;
 }
 body{
-    background-color: #353535;
+    background-color: #C0C0C0;
     box-sizing: border-box;
 }
 /*
 SECAO 1
 */
-#cabecalho{
+#secao1{
+    height: 900px;
+    width: 100%;
+}
+#cabecalho_secao1{
+    background-color: #C0C0C0;
+    display: flex;
+    justify-content: space-between;
     
+}
+#marca{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+}
+.links_cabecalho{
+    text-decoration: none;
+    color: #353535;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#div_cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0% 5%;
+    height: 100px;
+}
+#menu_secao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#div_registrar_logar{
+    display: flex;
+    align-items: center;
+    border-left: solid 3px white;
+    gap: 30px;
+}
+
+#logar_id_botao{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    width: 120px;
+    padding: 2% 0;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    border: solid 2px white;
+    margin-left: 20px;
+}
+#logar_id_botao:hover{
+    transform: scale(1.1);
+}
+#registrar_id_botao{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    width: 120px;
+    padding: 2% 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #C0C0C0;
+    border: solid 2px #C0C0C0;
+    margin-left: 20px;
+}
+
+#registrar_id_botao:hover{
+    transform: scale(1.1);
+}
+.link_botao_cabecalho{
+    text-decoration: none;
+    color: #353535;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+#conteudo_central_secao1{
+    display: flex;
+}
+#div_esquerda_conteudo_central_secao1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: 10% 7% 7% 7%;
+    background-color: #C0C0C0;
+}
+#p1_div_esquerda_secao1{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+#p2_div_esquerda_secao1{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #353535;
+}
+#h1_div_esquerda_secao1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    width: 70%;
+    font-size: 40px;
+}
+
+#botoes_div_esquerda_secao1{
+    display: flex;
+    gap: 5%;
+}
+.classe_botao1_div_esquerda_secao1{
+    border: white 2px solid;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.botao1_div_esquerda_secao1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#botao2_div_esquerda_secao1{
+    border: #C0C0C0 2px solid;
+    border-radius: 4px;
+    background-color: #C0C0C0;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+#botao2_div_esquerda_secao1:hover{
+    background-color: white;
+    border: white 2px solid;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.botao_ativado{
+    border: #C0C0C0 2px solid;
+    border-radius: 4px;
+    background-color: #C0C0C0;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+#link_botao1_div_esquerda_secao1{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+#link_botao2_div_esquerda_secao1{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+#div_direita_conteudo_central_secao1{
+    width: 50%;
+}
+#img_secao1{
+    width: 90%;
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
 }
 /*
 FIM SECAO 1
