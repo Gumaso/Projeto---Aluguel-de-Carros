@@ -1,7 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,400;1,800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root{
     --Azul-Escuro: #1A237E;
@@ -9,6 +7,12 @@
     --Vermelho-Ferrari: #FF2800
     --Prata- Metálico: #C0C0C0;
     --Preto-Onix: #353535;
+
+    --fonte-ubuntu: "Ubuntu", sans-serif;
+    --fonte-jakarta: "Plus Jakarta Sans", sans-serif;
+    --fonte-roboto: "Roboto", sans-serif;
+    --fonte-poppy: "Poppins", sans-serif;
+
 }
 *{
     margin: 0;
@@ -17,6 +21,8 @@
 body{
     background-color: #C0C0C0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 /*
 SECAO 1
@@ -24,6 +30,8 @@ SECAO 1
 #secao1{
     height: 900px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 #cabecalho_secao1{
     background-color: #C0C0C0;
@@ -40,7 +48,7 @@ SECAO 1
 .links_cabecalho{
     text-decoration: none;
     color: #353535;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--fonte-ubuntu);
     font-size: 24px;
     font-weight: 500;
 }
@@ -98,7 +106,7 @@ SECAO 1
 .link_botao_cabecalho{
     text-decoration: none;
     color: #353535;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--fonte-ubuntu);
     font-size: 20px;
 }
 #conteudo_central_secao1{
@@ -113,12 +121,12 @@ SECAO 1
     background-color: #C0C0C0;
 }
 #p1_div_esquerda_secao1{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--fonte-ubuntu);
     font-size: 24px;
     font-weight: 400;
 }
 #p2_div_esquerda_secao1{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--fonte-ubuntu);
     font-size: 24px;
     font-weight: 400;
     color: #353535;
@@ -193,3 +201,89 @@ SECAO 1
 /*
 FIM SECAO 1
 */
+
+
+
+/*
+INICIO SECAO 2
+*/
+#secao2{
+    display: flex;
+    height: 150px;
+    
+}
+
+#main_secao2{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 1% 10%;
+    gap: 50px;
+    background-color: #dbdada;
+    border-radius: 10px;
+    height: 80%;
+}
+#img_seta{
+}
+.menus_secao2{
+    display: flex;
+    gap: 20px;
+}
+.caixas_menu_secao2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.botoes_menu_secao2{
+    display: flex;
+    align-items: end;
+    border: none;
+    background-color: #dbdada;
+    font-family: var(--fonte-ubuntu);
+    font-size: 16px;
+    gap: 4px;
+}
+#titulo_input_secao2{
+    font-family: var(--fonte-ubuntu);
+    font-weight: 800;
+    font-size: 18px;
+}
+.titulos_menus_secao2{
+    font-family: var(--fonte-ubuntu);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+#div_esquerda_secao2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+}
+#div_central_secao2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+}
+#div_direita_secao2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+}
+#img_seta{
+    margin-bottom: 3px;
+}
+#botao_procurar_secao2{
+    height: 50px;
+    width: 140px;
+    margin-right: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+/*
+FIM SECAO 2
+*/
+
