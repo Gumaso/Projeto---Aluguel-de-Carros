@@ -29,10 +29,89 @@ botao_registrar.addEventListener('mouseout', function() {
     botao_logar.style.borderColor = ""
 });
 
-botao2.addEventListener('mouseover', function() {
-  botao1.style.backgroundColor = '#ff0000';
+
+var var_botao1 = document.getElementById("link1_menu_navegacao_links")
+var var_botao2 = document.getElementById("link2_menu_navegacao_links")
+var var_botao3 = document.getElementById("link3_menu_navegacao_links")
+var var_botao4 = document.getElementById("link4_menu_navegacao_links")
+
+
+var var_botao1 = document.getElementById("link1_menu_navegacao_links");
+var_botao1.addEventListener("mouseover", function() {
+  console.log("ola")
+  var_botao1.style.borderBottom = "3px solid black";
+  
+});
+var_botao1.addEventListener("mouseout", function() {
+  var_botao1.style.borderBottom = "";
 });
 
-botao2.addEventListener('mouseout', function() {
-  botao1.style.backgroundColor = '';
+/*CÓDIGOS MUDANÇA BORDA DE BAIXO BOTOES SECAO 4 */
+/* BOTAO 1*/
+var var_botao1 = document.getElementById("link1_menu_navegacao_links");
+var var_texto1 = document.getElementById("texto1_menu_navegacao_links");
+var_botao1.addEventListener("mouseover", function() {
+  console.log("ola")
+  var_botao1.style.borderBottom = "3px solid black";
+  var_texto1.style.fontSize = "22px";
+  var_texto1.style.color = "black";
+  
+});
+var_botao1.addEventListener("mouseout", function() {
+  var_botao1.style.borderBottom = "";
+  var_texto1.classList.remove("textos_links_ativado");
+  var_texto1.style.fontSize = "";
+  var_texto1.style.color = "";
+
+});
+/* BOTAO 2*/
+var var_botao2 = document.getElementById("link2_menu_navegacao_links");
+var var_texto2 = document.getElementById("texto2_menu_navegacao_links");
+
+var_botao2.addEventListener("mouseover", function() {
+  console.log("ola")
+  var_botao2.style.borderBottom = "3px solid black";
+  var_texto2.style.fontSize = "22px";
+  var_texto2.style.color = "black";
+  
+});
+var_botao2.addEventListener("mouseout", function() {
+  var_botao2.style.borderBottom = "";
+   var_texto2.style.fontSize = "";
+  var_texto2.style.color = "";
+});
+/* BOTAO 3*/
+
+var var_botao3 = document.getElementById("link3_menu_navegacao_links");
+var var_texto3 = document.getElementById("texto3_menu_navegacao_links");
+
+var_botao3.addEventListener("mouseover", function() {
+  console.log("ola")
+  var_botao3.style.borderBottom = "3px solid black";
+  var_texto3.style.fontSize = "22px";
+  var_texto3.style.color = "black";
+  
+});
+
+var_botao3.addEventListener("mouseout", function() {
+  var_botao3.style.borderBottom = "";
+   var_texto3.style.fontSize = "";
+  var_texto3.style.color = "";
+});
+/* BOTAO 4*/
+var var_botao4 = document.getElementById("link4_menu_navegacao_links");
+var var_texto4 = document.getElementById("texto4_menu_navegacao_links");
+
+var_botao4.addEventListener("mouseover", function() {
+  console.log("ola")
+  var_botao4.style.borderBottom = "3px solid black";
+  var_texto4.style.fontSize = "22px";
+  var_texto4.style.color = "black";
+  
+});
+
+var_botao4.addEventListener("mouseout", function() {
+  var_botao4.style.borderBottom = "";
+  var_texto4.style.fontSize = "";
+  var_texto4.style.color = "";
 });
