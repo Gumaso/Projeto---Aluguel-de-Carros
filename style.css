@@ -626,16 +626,19 @@ INICIO SECAO 8
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2%;
     
 }
 #div_superior_secao8{
     display: flex;
     width: 100%;
+    margin-left: 10%;
 }
 #div_esquerda_secao8{
-    width: 25%;
+    width: 40%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 #div_esquerda_secao8 > p{
@@ -646,6 +649,7 @@ INICIO SECAO 8
     width: 25%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 #div_esquerda2_secao8 > h4{
     font-size: 20px;
@@ -660,6 +664,7 @@ INICIO SECAO 8
     width: 25%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 #div_direita2_secao8 > a{
     text-decoration: none;
@@ -674,25 +679,71 @@ INICIO SECAO 8
     width: 25%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 #div_direita1_secao8 > a{
     text-decoration: none;
     color: black;
 }
-#div_direita1_secao8 > h4{
+
+.titulos_secao8{
     font-size: 20px;
     font-family: var(--fonte-poppy);
     font-weight: 600;
+    font-style: italic;
 }
 
 #div_inferior_secao8{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
+    border-top: 2px solid gray;
+    height: 100px;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
 }
 #div_direita_div_inferior > a{
     text-decoration: none;
     color: black;
+}
+.links_div_direita_div_inferior{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-ubuntu);
+}
+.links_div_acima_secao8{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-ubuntu);
+}
+#titulo_logo_secao8{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--fonte-ubuntu);
+}
+#div_inferior_secao8_2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icones_secao8{
+    width: 2rem;
+    height: 2rem;
+}
+#div_botoes_div_esquerda_secao8{
+    display: flex;
+    gap: 20px;
+}
+#div_botoes_div_esquerda_secao8 > button{
+    background-color: #C0C0C0;
+    border: none;
+    transition: all ease-in-out 0.7s;
+    
+}
+#div_botoes_div_esquerda_secao8 > button:hover{    
+    transform: scale(1.1);
 }
 /*
 FIM SECAO 8
