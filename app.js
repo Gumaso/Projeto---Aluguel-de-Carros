@@ -115,3 +115,23 @@ var_botao4.addEventListener("mouseout", function() {
   var_texto4.style.fontSize = "";
   var_texto4.style.color = "";
 });
+
+/*SECAO 6 */
+var radio = document.querySelector(".manual_btn")
+var cont = 1;
+document.getElementById("radio1").checked = true
+
+setInterval(() => {
+    proximaImg()
+}, 5000)
+
+
+function proximaImg(){
+    cont ++
+    if (cont > 6){
+        cont = 1
+    }
+    document.getElementById(`radio${cont}`).checked = true
+
+}
+/*FIM SECAO 6 */
