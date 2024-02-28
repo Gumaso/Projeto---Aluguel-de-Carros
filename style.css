@@ -392,6 +392,22 @@ INICIO SECAO 4
 #menu_navegacao_links:hover{
     cursor: pointer;
 }
+.botao_curtir_secao4{
+    background-image: url("/assets/coracao.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    background-color: #9c9c9c;
+    border: none;
+    transition: all ease-in-out 0.3s;
+
+}
+.botao_curtir_secao4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .infos_baixo_blocos_grade_secao4{
     display: flex;
     justify-content: space-between;
@@ -517,7 +533,7 @@ INICIO SECAO 5
     flex-direction: column;
 }
 .infos_secao5 > p, h4 {
-    width: 50%;
+    width: 70%;
 }
 .infos_secao5 > h4{
     font-size: 20px;
@@ -681,6 +697,16 @@ FIM SECAO 6
 /*
 INICIO SECAO 7
 */
+#secao7{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 90%;
+    margin: 0px 5%;
+}
 #div_superior_secao7{
     display: flex;
     flex-direction: column;
@@ -695,11 +721,10 @@ INICIO SECAO 7
 #div_central_secao7{
     display: flex;
     justify-content: center;
-    height: 50%;
+    align-items: center;
+    gap: 150px;
 }
-#div_central_secao7 > div > img{
-    width: 30%;
-}
+
 #div_superior_secao7 > p{
     font-family: var(--fonte-ubuntu);
 font-weight: 500;
@@ -708,6 +733,77 @@ font-size: 18px;
 #div_inferior_secao7{
     display: flex;
     justify-content: space-between;
+    width: 70%;
+}
+.div_avaliacoes_secao7{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.div_avaliacoes_secao7 > p{
+    font-family: var(--fonte-ubuntu);
+    text-align: justify;
+    width: 90%;
+    margin: 0px 5%;
+
+}
+
+.div_avaliacoes_infos_secao7{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px 5%;
+}
+.div_avaliacoes_infos_secao7 > p{
+    font-size: 18px;
+    font-family: var(--fonte-poppy);
+    font-weight: 500;
+}
+.textos_div_avaliacoes_infos_secao7 > h6{
+    font-family: var(--fonte-poppy);
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+}
+.textos_div_avaliacoes_infos_secao7 > p{
+    font-family: var(--fonte-ubuntu);
+    font-style: italic;
+}
+.div_avaliacoes_infos_secao7_n1{
+    display: flex;
+    gap: 20px;
+}
+.div_avaliacoes_infos_secao7_n1 > img{
+    width: 30px;
+}
+#div_direita_div_inferior_secao7 > button{
+    background-color: #C0C0C0;
+    border: none;
+    width: 50px;
+    height: 40px;
+}
+#div_direita_div_inferior_secao7 > button > img{
+    height: 100%;
+    width: 100%;
+}
+#input_1_secao7{
+    width: 20px; /* Largura do input */
+    padding: 10px; /* Espaçamento interno */
+    border: 2px solid #ccc; /* Borda sólida com cor cinza */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo */
+    outline: none; /* Remover contorno ao focar */
+}
+#div_esquerda_div_inferior_secao7 > input:focus{
+    width: 50px;
 }
 /*
 FIM SECAO 7
@@ -790,10 +886,13 @@ INICIO SECAO 8
 #div_inferior_secao8{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     border-top: 2px solid gray;
     height: 100px;
     margin-top: 2%;
+    margin-left:5% ;
+    margin-right:5% ;
+
     align-items: center;
     justify-content: center;
 }

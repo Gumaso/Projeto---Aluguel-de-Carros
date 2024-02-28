@@ -115,6 +115,62 @@ var_botao4.addEventListener("mouseout", function() {
   var_texto4.style.fontSize = "";
   var_texto4.style.color = "";
 });
+function mudarCorBotao(botao){
+  if (botao.style.backgroundImage.includes('coracao.svg')) {
+    botao.style.backgroundImage = 'url("/assets/coracao_cheio.svg")';
+  } 
+  else {
+    botao.style.backgroundImage = 'url("/assets/coracao.svg")';
+  }
+};
+
+var botao_curtir1_secao4 = document.getElementById("botao_curtir1")
+var botao_curtir2_secao4 = document.getElementById("botao_curtir2")
+var botao_curtir3_secao4 = document.getElementById("botao_curtir3")
+var botao_curtir4_secao4 = document.getElementById("botao_curtir4")
+var botao_curtir5_secao4 = document.getElementById("botao_curtir5")
+var botao_curtir6_secao4 = document.getElementById("botao_curtir6")
+var botao_curtir7_secao4 = document.getElementById("botao_curtir7")
+var botao_curtir8_secao4 = document.getElementById("botao_curtir8")
+/*BOTAO CURTIR 1 */
+botao_curtir1_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir1_secao4)
+});
+/*BOTAO CURTIR 2 */
+botao_curtir2_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir2_secao4)
+
+});
+/*BOTAO CURTIR 3 */
+botao_curtir3_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir3_secao4)
+
+});
+/*BOTAO CURTIR 4 */
+botao_curtir4_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir4_secao4)
+
+});
+/*BOTAO CURTIR 5 */
+botao_curtir5_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir5_secao4)
+
+});
+/*BOTAO CURTIR 6 */
+botao_curtir6_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir6_secao4)
+
+});
+/*BOTAO CURTIR 7 */
+botao_curtir7_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir7_secao4)
+
+});
+/*BOTAO CURTIR 8 */
+botao_curtir8_secao4.addEventListener("click", function(){
+  mudarCorBotao(botao_curtir8_secao4)
+
+});
 
 /*SECAO 6 */
 var radio = document.querySelector(".manual_btn")
