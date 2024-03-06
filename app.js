@@ -1,3 +1,100 @@
+var carros_populares_html =`<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Fiat Uno</p>
+    <button class="botao_curtir_secao4" id="botao_curtir1" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Fiat Uno.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Volkswagen Gol
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir2" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/volkswagen-go.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Ford Ka
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir3" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/ford ka.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Chevrolet Onix
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir4" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/onix.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Renault Kwid
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir5" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/kwid.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Hyundai HB20
+         </p>
+    <button class="botao_curtir_secao4" id="botao_curtir6" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/hb20.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Toyota Etios
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir7" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/toyota-etios.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Nissan March</p>
+    <button class="botao_curtir_secao4" id="botao_curtir8" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/nissan march.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>` 
+var carros_grandes_html  = ``
+var carros_pequenos_html  = ``
+var carros_exclusivos_html  = ``
 var var_botao1_div_esquerda_secao1 = document.getElementById("botao1_div_esquerda_secao1");
 var var_botao2_div_esquerda_secao1 = document.getElementById("botao2_div_esquerda_secao1");
 
@@ -38,7 +135,6 @@ var var_botao4 = document.getElementById("link4_menu_navegacao_links")
 
 var var_botao1 = document.getElementById("link1_menu_navegacao_links");
 var_botao1.addEventListener("mouseover", function() {
-  console.log("ola")
   var_botao1.style.borderBottom = "3px solid black";
   
 });
@@ -51,7 +147,6 @@ var_botao1.addEventListener("mouseout", function() {
 var var_botao1 = document.getElementById("link1_menu_navegacao_links");
 var var_texto1 = document.getElementById("texto1_menu_navegacao_links");
 var_botao1.addEventListener("mouseover", function() {
-  console.log("ola")
   var_botao1.style.borderBottom = "3px solid black";
   var_texto1.style.fontSize = "22px";
   var_texto1.style.color = "black";
@@ -69,7 +164,6 @@ var var_botao2 = document.getElementById("link2_menu_navegacao_links");
 var var_texto2 = document.getElementById("texto2_menu_navegacao_links");
 
 var_botao2.addEventListener("mouseover", function() {
-  console.log("ola")
   var_botao2.style.borderBottom = "3px solid black";
   var_texto2.style.fontSize = "22px";
   var_texto2.style.color = "black";
@@ -86,7 +180,6 @@ var var_botao3 = document.getElementById("link3_menu_navegacao_links");
 var var_texto3 = document.getElementById("texto3_menu_navegacao_links");
 
 var_botao3.addEventListener("mouseover", function() {
-  console.log("ola")
   var_botao3.style.borderBottom = "3px solid black";
   var_texto3.style.fontSize = "22px";
   var_texto3.style.color = "black";
@@ -103,7 +196,6 @@ var var_botao4 = document.getElementById("link4_menu_navegacao_links");
 var var_texto4 = document.getElementById("texto4_menu_navegacao_links");
 
 var_botao4.addEventListener("mouseover", function() {
-  console.log("ola")
   var_botao4.style.borderBottom = "3px solid black";
   var_texto4.style.fontSize = "22px";
   var_texto4.style.color = "black";
@@ -171,7 +263,15 @@ botao_curtir8_secao4.addEventListener("click", function(){
   mudarCorBotao(botao_curtir8_secao4)
 
 });
+var pagina_secao_carros = document.getElementById("grade_carros_secao4")
+var botao_carros_populares = document.getElementById("link1_menu_navegacao_links")
+var botao_carros_grandes = document.getElementById("link2_menu_navegacao_links")
+var botao_carros_pequenos = document.getElementById("link3_menu_navegacao_links")
+var botao_carros_exclusivos= document.getElementById("link4_menu_navegacao_links")
 
+botao_carros_populares.addEventListener("click", function(){
+  pagina_secao_carros.innerHTML = ''
+})
 /*SECAO 6 */
 var radio = document.querySelector(".manual_btn")
 var cont = 1;
@@ -191,3 +291,43 @@ function proximaImg(){
 
 }
 /*FIM SECAO 6 */
+
+/*INICIO SECAO 7 */
+var var_radio1 = document.getElementById("radio1_secao7");
+var var_radio2 = document.getElementById("radio2_secao7");
+var var_radio3 = document.getElementById("radio3_secao7");
+var var_radio4 = document.getElementById("radio4_secao7");
+
+
+var_radio1.addEventListener("click", function() {
+    if (var_radio1.checked  == true){
+        var_radio2.checked  = false
+        var_radio3.checked  = false
+        var_radio4.checked  = false}
+    
+});
+
+
+var_radio2.addEventListener("click", function(){
+    if (var_radio2.checked  == true){
+        var_radio1.checked  = false
+        var_radio3.checked  = false
+        var_radio4.checked  = false}
+
+})
+
+var_radio3.addEventListener("click", function(){
+    if (var_radio3.checked  == true){
+        var_radio1.checked  = false
+        var_radio2.checked  = false
+        var_radio4.checked  = false}
+
+})
+var_radio4.addEventListener("click", function(){
+  if (var_radio4.checked  == true){
+      var_radio1.checked  = false
+      var_radio2.checked  = false
+      var_radio3.checked  = false}
+
+})
+/*FIM SECAO 7 */

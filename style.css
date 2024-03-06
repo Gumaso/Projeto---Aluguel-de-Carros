@@ -51,6 +51,11 @@ SECAO 1
     font-family: var(--fonte-ubuntu);
     font-size: 24px;
     font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+.links_cabecalho:hover{
+    transform: scale(1.1);
+    color: black;
 }
 
 #div_cabecalho{
@@ -150,7 +155,7 @@ SECAO 1
     padding: 10px;
     transition: all 0.5s ease-in-out;
 }
-.botao1_div_esquerda_secao1:hover{
+#botao1_div_esquerda_secao1:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -194,8 +199,7 @@ SECAO 1
 #img_secao1{
     width: 90%;
     height: 100%;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
+    border-radius: 60px;
 
 }
 /*
@@ -313,12 +317,21 @@ INICIO SECAO 3
     justify-content: center;
     align-items: center;
 }
+#div_superior_secao3 > h2{
+    font-size: 24px;
+    font-family: var(--fonte-poppy);
+}
+#div_superior_secao3 > p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-ubuntu);
+}
 #div_inferior_secao3{
     display: flex;
     margin: 0% 5%;
 }
 .imagens_secao3{
-    width: 120px;
+    width: 160px;
 }
 .div_caixas_inferior_secao3{
     display: flex;
@@ -331,6 +344,13 @@ INICIO SECAO 3
     display: flex;
     width: 50%;
     text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-ubuntu);
+}
+.div_caixas_inferior_secao3 > h3{
+    font-size: 24px;
+    font-family: var(--fonte-poppy);
 }
 /*
 FIM SECAO 3
@@ -499,8 +519,16 @@ INICIO SECAO 4
     border:2px solid white;
     font-size: 16px;
 }
-#div_inferior_secao4  > i{
-    font-size: 14px;
+#div_inferior_secao4  > div > i{
+    font-size: 24px;
+
+}
+#div_inferior_secao4_frase{
+    display: flex;
+    justify-content: center;
+
+    width: 100px;
+    border-radius: 3px;
 }
 /*
 FIM SECAO 4
@@ -536,7 +564,7 @@ INICIO SECAO 5
     width: 70%;
 }
 .infos_secao5 > h4{
-    font-size: 20px;
+    font-size: 24px;
     font-family: var(--fonte-poppy);
     font-weight: 1000;
 }
@@ -547,8 +575,9 @@ INICIO SECAO 5
 }
 #img_secao5{
     margin-left: 10%;
-    width: 50%;
-    height: 90%;
+    width: 60%;
+    height: 100%;
+    border-radius: 12px;
 }
 .caixas_secao5{
     display: flex;
@@ -574,7 +603,7 @@ font-size: 18px;
     flex-direction: column;
     align-items: center;
     width: 50%;
-    gap: 80px;
+    gap: 40px;
 }
 #div_esquerda_secao5{
     display: flex;
@@ -787,6 +816,11 @@ font-size: 18px;
     border: none;
     width: 50px;
     height: 40px;
+    transition: all 0.5s ease-in-out;
+}
+#div_direita_div_inferior_secao7 > button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 #div_direita_div_inferior_secao7 > button > img{
     height: 100%;
@@ -802,8 +836,45 @@ font-size: 18px;
     background-color: #f4f4f4; /* Cor de fundo */
     outline: none; /* Remover contorno ao focar */
 }
-#div_esquerda_div_inferior_secao7 > input:focus{
-    width: 50px;
+#div_esquerda_div_inferior_secao7{
+    display: flex;
+    gap: 8px;
+}
+
+.inputs_secao7{
+    display: none;
+}
+.inputs_secao7 + label{
+    display: flex;
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+    border:solid 1px whitesmoke  ;
+    transition: all 0.3s ease-in-out;
+    background-color: whitesmoke;
+}
+.inputs_secao7 + label:hover{
+    cursor: pointer;
+}
+#radio1_secao7:checked + label{
+    width:50px;
+    border-radius: 10px;
+    background-color: black;
+}
+#radio2_secao7:checked + label{
+    width:50px;
+    border-radius: 10px;
+    background-color: black;
+}
+#radio3_secao7:checked + label{
+    width:50px;
+    border-radius: 10px;
+    background-color: black;
+}
+#radio4_secao7:checked + label{
+    width:50px;
+    border-radius: 10px;
+    background-color: black;
 }
 /*
 FIM SECAO 7
@@ -826,9 +897,11 @@ INICIO SECAO 8
 }
 #div_esquerda_secao8{
     width: 40%;
+    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 
 #div_esquerda_secao8 > p{
@@ -927,7 +1000,7 @@ INICIO SECAO 8
 }
 #div_botoes_div_esquerda_secao8{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 #div_botoes_div_esquerda_secao8 > button{
     background-color: #C0C0C0;
