@@ -29,3 +29,5 @@ Se você tem sugestões de melhorias ou encontrou algum problema, sinta-se à vo
 Para mais informações ou suporte, entre em contato conosco através do email: [contato.celeritasmotus@gmail.com](mailto:contato.celeritasmotus@gmail.com)
 
 Obrigado por escolher a Celeritas Motus para suas necessidades de aluguel de carros online!
+##OBSERVAÇÃO:
+Link do site com as imagens carregadas: https://projeto-aluguel-de-carros.vercel.app/
