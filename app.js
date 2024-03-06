@@ -5,7 +5,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Fiat Uno.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -17,7 +17,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/volkswagen-go.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -29,7 +29,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/ford ka.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -41,7 +41,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/onix.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -53,7 +53,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/kwid.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -65,7 +65,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/hb20.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -77,7 +77,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/toyota-etios.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -88,7 +88,7 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/nissan march.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$60.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>` 
@@ -99,7 +99,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Mercedes-Benz-S-Class.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -111,7 +111,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/BMW 7 Series.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -123,7 +123,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Audi A8.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -135,7 +135,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Lexus LS.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -147,7 +147,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Cadillac CT6.jpeg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -158,7 +158,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Jaguar XJ.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -170,7 +170,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Porsche Panamera.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -181,7 +181,7 @@ var carros_grandes_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Volvo S90.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$250.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>`
@@ -192,7 +192,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Mini Cooper.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -204,7 +204,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Mazda 3.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -216,7 +216,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Kia Rio.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -228,7 +228,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Ford Fiesta.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -240,7 +240,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/polo.jpg">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -251,7 +251,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Toyota Yaris.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -263,7 +263,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Hyundai Accent.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -274,7 +274,7 @@ var carros_pequenos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Honda Fit.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$85.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>`
@@ -285,7 +285,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Lamborghini Aventador.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$1500.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -297,7 +297,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Ferrari 488 GTB.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$1500.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -309,7 +309,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Aston Martin DB11.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$1500.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -321,7 +321,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Rolls-Royce Phantom.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$1500.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -333,7 +333,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Bentley Continental GT.webp">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$1500.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -344,7 +344,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/McLaren 720S.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$1500.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -356,7 +356,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Bugatti Chiron.webp" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$15000.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>
@@ -367,7 +367,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
 </div>
 <img class="imagem_carro_secao4" src="assets/Pagani Huayra.jpg" alt="">
 <div class="infos_baixo_blocos_grade_secao4">
-    <p>R$72.00/ Dia</p>
+    <p>R$15000.00/ Dia</p>
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>`
