@@ -227,7 +227,11 @@ INICIO SECAO 2
     border-radius: 10px;
     height: 80%;
 }
-#img_seta{
+
+.textos_secao2{
+    font-family: var(--fonte-ubuntu);
+    font-size: 16px;
+    font-weight: 500;
 }
 .menus_secao2{
     display: flex;
@@ -280,6 +284,8 @@ INICIO SECAO 2
     margin-bottom: 3px;
 }
 #botao_procurar_secao2{
+    font-family: var(--fonte-ubuntu);
+    font-weight: 600;
     height: 50px;
     width: 140px;
     margin-right: 40px;
@@ -291,6 +297,28 @@ INICIO SECAO 2
 #botao_procurar_secao2:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+.inputs_secao2{
+    display: none;
+}
+.inputs_secao2 + label{
+    display: block;
+    width: 17px;
+    height: 15px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+#pegar_input:checked + label{
+    background-color: black;
+}
+#deixar_input:checked + label{
+    background-color: black;
+}
+.div_superior_div_esqeurda_secao2{
+    display: flex;
+    height: 20px;
+    gap: 10px;
+    align-items: center;
 }
 /*
 FIM SECAO 2

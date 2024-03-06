@@ -371,6 +371,7 @@ var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>`
+/* INICIO SECAO 1 */
 var var_botao1_div_esquerda_secao1 = document.getElementById("botao1_div_esquerda_secao1");
 var var_botao2_div_esquerda_secao1 = document.getElementById("botao2_div_esquerda_secao1");
 
@@ -401,8 +402,24 @@ botao_registrar.addEventListener('mouseout', function() {
     botao_logar.style.backgroundColor = ''; // Muda o background color do botão 2
     botao_logar.style.borderColor = ""
 });
+/* FIM DA SECAO 1*/
+/* INICIO SECAO 2*/
+var input_1 = document.getElementById("pegar_input")
+var input_2 = document.getElementById("deixar_input")
 
 
+input_1.addEventListener("click", function(){
+    if (input_1.checked == true){
+        input_2.checked = false
+    }
+})
+input_2.addEventListener("click", function(){
+    if(input_2.checked == true){
+        input_1.checked = false
+    }
+})
+/* FIM DA SECAO 2*/
+/* INICIO SECAO 4*/
 var var_botao1 = document.getElementById("link1_menu_navegacao_links")
 var var_botao2 = document.getElementById("link2_menu_navegacao_links")
 var var_botao3 = document.getElementById("link3_menu_navegacao_links")
@@ -570,6 +587,7 @@ botao_carros_exclusivos.addEventListener("click", function(){
     variaveisCorCurtida()
   
 })
+/*FIM SECAO 4 */
 /*SECAO 6 */
 var radio = document.querySelector(".manual_btn")
 var cont = 1;
