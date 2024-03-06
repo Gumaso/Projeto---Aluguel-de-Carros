@@ -92,9 +92,285 @@ var carros_populares_html =`<div class="blocos_grade_secao4">
     <button class="botao_secao4">Alugar</button>
 </div>
 </div>` 
-var carros_grandes_html  = ``
-var carros_pequenos_html  = ``
-var carros_exclusivos_html  = ``
+var carros_grandes_html  = `<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Mercedes-Benz S-Class</p>
+    <button class="botao_curtir_secao4" id="botao_curtir1" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Mercedes-Benz-S-Class.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>BMW 7 Series
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir2" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/BMW 7 Series.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Audi A8
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir3" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Audi A8.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Lexus LS
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir4" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Lexus LS.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Cadillac CT6
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir5" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Cadillac CT6.jpeg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Jaguar XJ</p>
+    <button class="botao_curtir_secao4" id="botao_curtir6" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Jaguar XJ.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Porsche Panamera
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir7" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Porsche Panamera.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Volvo S90</p>
+    <button class="botao_curtir_secao4" id="botao_curtir8" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Volvo S90.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>`
+var carros_pequenos_html  = `<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Mini Cooper</p>
+    <button class="botao_curtir_secao4" id="botao_curtir1" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Mini Cooper.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Mazda 3 
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir2" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Mazda 3.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Kia Rio
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir3" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Kia Rio.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Ford Fiesta
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir4" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Ford Fiesta.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Volkswagen Polo
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir5" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/polo.jpg">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Toyota Yaris</p>
+    <button class="botao_curtir_secao4" id="botao_curtir6" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Toyota Yaris.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p> Hyundai Accent
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir7" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Hyundai Accent.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Honda Fit</p>
+    <button class="botao_curtir_secao4" id="botao_curtir8" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Honda Fit.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>`
+var carros_exclusivos_html  = `<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Lamborghini Aventador</p>
+    <button class="botao_curtir_secao4" id="botao_curtir1" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Lamborghini Aventador.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Ferrari 488 GTB
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir2" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Ferrari 488 GTB.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Aston Martin DB11
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir3" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Aston Martin DB11.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Rolls-Royce Phantom
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir4" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Rolls-Royce Phantom.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Bentley Continental GT
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir5" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Bentley Continental GT.webp">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>McLaren 720S</p>
+    <button class="botao_curtir_secao4" id="botao_curtir6" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/McLaren 720S.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Bugatti Chiron
+        </p>
+    <button class="botao_curtir_secao4" id="botao_curtir7" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Bugatti Chiron.webp" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>
+<div class="blocos_grade_secao4">
+<div class="infos_cima_blocos_grade_secao4">
+    <p>Pagani Huayra</p>
+    <button class="botao_curtir_secao4" id="botao_curtir8" style="background-image: url('/assets/coracao.svg')"></button>
+</div>
+<img class="imagem_carro_secao4" src="assets/Pagani Huayra.jpg" alt="">
+<div class="infos_baixo_blocos_grade_secao4">
+    <p>R$72.00/ Dia</p>
+    <button class="botao_secao4">Alugar</button>
+</div>
+</div>`
 var var_botao1_div_esquerda_secao1 = document.getElementById("botao1_div_esquerda_secao1");
 var var_botao2_div_esquerda_secao1 = document.getElementById("botao2_div_esquerda_secao1");
 
@@ -215,7 +491,8 @@ function mudarCorBotao(botao){
     botao.style.backgroundImage = 'url("/assets/coracao.svg")';
   }
 };
-
+function variaveisCorCurtida(){
+  
 var botao_curtir1_secao4 = document.getElementById("botao_curtir1")
 var botao_curtir2_secao4 = document.getElementById("botao_curtir2")
 var botao_curtir3_secao4 = document.getElementById("botao_curtir3")
@@ -231,7 +508,7 @@ botao_curtir1_secao4.addEventListener("click", function(){
 /*BOTAO CURTIR 2 */
 botao_curtir2_secao4.addEventListener("click", function(){
   mudarCorBotao(botao_curtir2_secao4)
-
+  console.log("Botao 2 foi clicado")
 });
 /*BOTAO CURTIR 3 */
 botao_curtir3_secao4.addEventListener("click", function(){
@@ -263,14 +540,35 @@ botao_curtir8_secao4.addEventListener("click", function(){
   mudarCorBotao(botao_curtir8_secao4)
 
 });
+}
+variaveisCorCurtida()
 var pagina_secao_carros = document.getElementById("grade_carros_secao4")
 var botao_carros_populares = document.getElementById("link1_menu_navegacao_links")
 var botao_carros_grandes = document.getElementById("link2_menu_navegacao_links")
 var botao_carros_pequenos = document.getElementById("link3_menu_navegacao_links")
 var botao_carros_exclusivos= document.getElementById("link4_menu_navegacao_links")
 
+
 botao_carros_populares.addEventListener("click", function(){
-  pagina_secao_carros.innerHTML = ''
+  pagina_secao_carros.innerHTML = carros_populares_html
+  variaveisCorCurtida()
+})
+  
+
+botao_carros_grandes.addEventListener("click", function(){
+  pagina_secao_carros.innerHTML = carros_grandes_html
+  variaveisCorCurtida()
+  
+})
+botao_carros_pequenos.addEventListener("click", function(){
+  pagina_secao_carros.innerHTML = carros_pequenos_html
+    variaveisCorCurtida()
+
+})
+botao_carros_exclusivos.addEventListener("click", function(){
+  pagina_secao_carros.innerHTML = carros_exclusivos_html
+    variaveisCorCurtida()
+  
 })
 /*SECAO 6 */
 var radio = document.querySelector(".manual_btn")
